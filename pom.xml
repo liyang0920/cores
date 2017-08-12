@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<project
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>cores</groupId>
+  <artifactId>cores-java</artifactId>
+  <version>1.9.0</version>
+  <packaging>pom</packaging>
+
+  <name>Cores Java</name>
+  <description>Cores parent Java project</description>
+
+  <properties>
+    <hadoop1.version>1.2.1</hadoop1.version>
+    <hadoop2.version>2.5.1</hadoop2.version>
+    <jackson.version>1.9.13</jackson.version>
+    <jetty.version>6.1.26</jetty.version>
+    <jetty-servlet-api.version>2.5-20081211</jetty-servlet-api.version>
+    <jopt-simple.version>4.7</jopt-simple.version>
+    <junit.version>4.11</junit.version>
+    <netty.version>3.5.13.Final</netty.version>
+    <paranamer.version>2.7</paranamer.version>
+    <protobuf.version>2.5.0</protobuf.version>
+    <thrift.version>0.9.1</thrift.version>
+    <slf4j.version>1.7.7</slf4j.version>
+    <snappy.version>1.1.1.3</snappy.version>
+    <velocity.version>1.7</velocity.version>
+    <maven.version>2.0.10</maven.version>
+    <ant.version>1.9.0</ant.version>
+    <commons-cli.version>1.2</commons-cli.version>
+    <commons-codec.version>1.9</commons-codec.version>
+    <commons-compress.version>1.8.1</commons-compress.version>
+    <commons-httpclient.version>3.1</commons-httpclient.version>
+    <commons-lang.version>2.6</commons-lang.version>
+    <commons-logging.version>1.1.1</commons-logging.version>
+    <tukaani.version>1.5</tukaani.version>
+    <easymock.version>3.2</easymock.version>
+    <hamcrest.version>1.3</hamcrest.version>
+    <commons-httpclient.version>3.1</commons-httpclient.version>
+    <joda.version>2.7</joda.version>
+    <guava.version>11.0.2</guava.version>
+    <findbugs-annotations.version>1.3.9-1</findbugs-annotations.version>
+    <bundle-plugin-version>2.5.3</bundle-plugin-version>
+    <compiler-plugin.version>3.1</compiler-plugin.version>
+    <exec-plugin.version>1.3.2</exec-plugin.version>
+    <jar-plugin.version>2.5</jar-plugin.version>
+    <javacc-plugin.version>2.6</javacc-plugin.version>
+    <javadoc-plugin.version>2.9.1</javadoc-plugin.version>
+    <plugin-tools-javadoc.version>3.2</plugin-tools-javadoc.version>
+    <maven-site-plugin.version>3.3</maven-site-plugin.version>
+    <plugin-plugin.version>3.3</plugin-plugin.version>
+    <source-plugin.version>2.3</source-plugin.version>
+    <surefire-plugin.version>2.17</surefire-plugin.version>
+    <file-management.version>1.2.1</file-management.version>
+    <shade-plugin.version>2.4.3</shade-plugin.version>
+    <archetype-plugin.version>2.2</archetype-plugin.version>
+    <avro.version>1.9.0-SNAPSHOT</avro.version>
+  </properties>
+
+  <modules>
+    <module>core</module>
+    <module>avro</module>
+  </modules>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${surefire-plugin.version}</version>
+          <configuration>
+            <failIfNoTests>false</failIfNoTests>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${compiler-plugin.version}</version>
+          <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>${jar-plugin.version}</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>test-jar</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>${slf4j.version}</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+
+</project>
+
