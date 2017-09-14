@@ -18,5 +18,7 @@
 /home/ly/cores/avro/src/main/java/cores/avro/mapreduce/NeciFilterRecordReader.java
 /home/ly/cores/avro/src/main/java/cores/avro/FilterBatchColumnReader.java
 /home/ly/cores/avro/src/main/java/cores/avro/StreamGobbler.java
+/home/ly/cores/avro/src/main/java/cores/avro/mapreduce/TextRecordReader.java
+/home/ly/cores/avro/src/main/java/cores/avro/mapreduce/InputFormatText.java
 /home/ly/cores/avro/src/main/java/cores/avro/FilterOperator.java
 /home/ly/cores/avro/src/main/java/cores/avro/SortedArray.java

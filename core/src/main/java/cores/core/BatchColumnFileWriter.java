@@ -119,11 +119,6 @@ public class BatchColumnFileWriter {
     }
 
     public void mergeFiles(OutputStream head, OutputStream data) throws IOException {
-        //        rowcount = gapFile.readInt();
-        //        nest = new int[rowcount];
-        //        for (int i = 0; i < rowcount; i++) {
-        //            nest[i] = 1;
-        //        }
         for (int i = 0; i < columncount; i++) {
             if (meta[i].isArray()) {
                 mergeArrayColumn(data, i);
@@ -135,17 +130,11 @@ public class BatchColumnFileWriter {
         for (int i = 0; i < readers.length; i++) {
             readers[i].close();
             readers[i] = null;
-            //            files[i].delete();
-            //            new File(files[i].getAbsolutePath().substring(0, files[i].getAbsolutePath().lastIndexOf(".")) + ".head")
-            //                    .delete();
         }
-        //        clearGap();
     }
 
     private void mergeColumn(OutputStream out, int column) throws IOException {
         BlockOutputBuffer buf = new BlockOutputBuffer();
-        //        gapFile.seek(4);
-        //        nestFile.seek(0);
         int row = 0;
         BlockColumnValues[] values = new BlockColumnValues[readers.length];
         for (int i = 0; i < readers.length; i++) {
@@ -174,42 +163,22 @@ public class BatchColumnFileWriter {
             }
         }
 
-        //        for (int i = 0; i < rowcount; i++) {
-        //            int index = gapFile.readInt();
-        //            int nest = nestFile.readInt();
-        //            int index = gap[i];
-        //            for (int j = 0; j < nest; j++) {
-        //            if (buf.isFull()) {
-        //                BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
-        //                blocks[column].add(b);
-        //                row = 0;
-        //                buf.writeTo(out);
-        //                buf.reset();
-        //            }
-        //            values[index].startRow();
-        //            buf.writeValue(values[index].nextValue(), type);
-        //            row++;
-        //            }
-        //        }
-
         if (buf.size() != 0) {
             BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
             blocks[column].add(b);
             buf.writeTo(out);
         }
-
         buf.close();
     }
 
     private void mergeArrayColumn(OutputStream out, int column) throws IOException {
         BlockOutputBuffer buf = new BlockOutputBuffer();
-        //        gapFile.seek(4);
-        //        nestFile.seek(0);
         int row = 0;
         BlockColumnValues[] values = new BlockColumnValues[readers.length];
         int tmp = 0;
         for (int i = 0; i < readers.length; i++) {
             values[i] = readers[i].getValues(column);
+            int length = 0;
             while (values[i].hasNext()) {
                 if (buf.isFull()) {
                     BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
@@ -219,66 +188,20 @@ public class BatchColumnFileWriter {
                     buf.reset();
                 }
                 values[i].startRow();
-                int length = values[i].nextLength();
-                tmp += length;
-                buf.writeLength(tmp); //stored the array column incremently.
+                length = values[i].nextLength();
+                buf.writeLength(tmp + length); //stored the array column incremently.
                 row++;
             }
+            tmp += length;
         }
-        //        RandomAccessFile tmpNestFile = new RandomAccessFile(path + "tmpnest", "rw");
-
-        //        for (int i = 0; i < rowcount; i++) {
-        //            int index = gapFile.readInt();
-        //            int nest = nestFile.readInt();
-        //            int index = gap[i];
-        //            nest[i] = 0;
-        //            int tmpnest = 0;
-        //            for (int j = 0; j < nest; j++) {
-        //                if (buf.isFull()) {
-        //                    BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
-        //                    blocks[column].add(b);
-        //                    row = 0;
-        //                    buf.writeTo(out);
-        //                    buf.reset();
-        //                }
-        //                values[index].startRow();
-        //                int length = values[index].nextLength();
-        //                nest[i] += length;
-        //                tmpnest += length;
-        //                tmp += length;
-        //                buf.writeLength(tmp); //stored the array column incremently.
-        //                row++;
-        //            }
-        //            tmpNestFile.writeInt(tmpnest);
-        //        }
-
-        //        nestFile.close();
-        //        nestFile = null;
-        //        tmpNestFile.close();
-        //        tmpNestFile = null;
-        //        new File(path + "nest").delete();
-        //        new File(path + "tmpnest").renameTo(new File(path + "nest"));
-        //        nestFile = new RandomAccessFile(path + "nest", "rw");
 
         if (buf.size() != 0) {
             BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
             blocks[column].add(b);
             buf.writeTo(out);
         }
-
         buf.close();
     }
-
-    //  public void insertTo(OutputStream head, OutputStream data) throws IOException {
-    //    rowcount = addRow + reader.getRowCount();
-    //    values = new ColumnValues[meta.length];
-    //    for(int i = 0; i < meta.length; i++){
-    //      values[i] = reader.getValues(i);
-    //    }
-    //
-    //    writeColumns(data);
-    //    writeHeader(head);
-    //  }
 
     private void writeSourceColumns(OutputStream out) throws IOException {
         BlockOutputBuffer buf = new BlockOutputBuffer();
@@ -400,13 +323,4 @@ public class BatchColumnFileWriter {
         header.writeTo(out);
         header.close();
     }
-
-    //    public void clearGap() throws IOException {
-    //        gapFile.close();
-    //        nestFile.close();
-    //        gapFile = null;
-    //        nestFile = null;
-    //        new File(path + "gap").delete();
-    //        new File(path + "nest").delete();
-    //    }
 }

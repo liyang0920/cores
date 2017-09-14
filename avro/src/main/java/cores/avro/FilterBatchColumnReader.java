@@ -557,6 +557,18 @@ public class FilterBatchColumnReader<D> implements Closeable {
         return res;
     }
 
+    public BitSet getCurrentSet() {
+        return filterSet;
+    }
+
+    public ArrayList<BitSet> getReadSet() {
+        ArrayList<BitSet> res = new ArrayList<BitSet>();
+        for (int x : readSet) {
+            res.add(chooseSet.get(x));
+        }
+        return res;
+    }
+
     public void createSchema(Schema s) {
         readSchema = s;
         AvroColumnator readColumnator = new AvroColumnator(s);

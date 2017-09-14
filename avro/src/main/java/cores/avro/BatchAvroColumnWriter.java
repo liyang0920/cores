@@ -106,13 +106,28 @@ public class BatchAvroColumnWriter<T> {
         //    }
     }
 
+    public void flush(T value) throws IOException {
+        values.add(value);
+        if (values.size() < max) {
+            return;
+        }
+        flushTo(new File(path + "file" + String.valueOf(fileIndex) + ".neci"));
+
+        fileIndex++;
+        end = System.currentTimeMillis();
+        System.out.println("############" + (fileIndex) + "\ttime: " + (end - start) + "ms");
+        System.out.println();
+        start = System.currentTimeMillis();
+        //    }
+    }
+
     public int flush() throws IOException {
         if (!values.isEmpty()) {
-            if (fileIndex > 0) {
-                appendTo(new File(path + "file" + String.valueOf(fileIndex) + ".neci"));
-            } else {
-                flushTo(new File(path + "file" + String.valueOf(fileIndex) + ".neci"));
-            }
+            //            if (fileIndex > 0) {
+            //                appendTo(new File(path + "file" + String.valueOf(fileIndex) + ".neci"));
+            //            } else {
+            flushTo(new File(path + "file" + String.valueOf(fileIndex) + ".neci"));
+            //            }
             fileIndex++;
             end = System.currentTimeMillis();
             System.out.println("Trevni#######" + (fileIndex) + "\ttime: " + (end - start) + "ms");
@@ -243,7 +258,6 @@ public class BatchAvroColumnWriter<T> {
 
     public void mergeFiles(File[] files) throws IOException {
         long t1 = System.currentTimeMillis();
-        //        writer.setGap(gapPath);
         writer.setMergeFiles(files);
         writer.mergeFiles(new File(path + "result.neci"));
         for (File f : files) {

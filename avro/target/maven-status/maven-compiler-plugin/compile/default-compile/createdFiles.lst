@@ -31,8 +31,10 @@ cores/avro/SortTrevniReader$TrevniReader.class
 cores/avro/FilterBatchColumnReader.class
 cores/avro/MyMap.class
 cores/avro/AvroColumnator.class
+cores/avro/mapreduce/InputFormatText.class
 cores/avro/BatchColumnReader$1.class
 cores/avro/InsertAvroColumnReader.class
+cores/avro/mapreduce/TextRecordReader.class
 cores/avro/FilterBatchColumnReader$1.class
 cores/avro/mapreduce/NeciFilterRecordReader.class
 cores/avro/AvroColumnWriter.class
