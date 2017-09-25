@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4df04912-179a-41b4-a0a5-82a7295e1ed5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_35.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_9_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_9_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_9_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_trevni_avro_1_9_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_trevni_core_1_9_0_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapdb_mapdb_1_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/cores-avro.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/ParquetTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw3.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw4.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw5.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/cores-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cores-java.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/classes/META-INF/maven/cores/cores-avro/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/classes/META-INF/maven/cores/cores-avro/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/package-info.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter$Blocks.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter$Blocks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnator.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchAvroColumnWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchAvroColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchColumnReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader$BatchTrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader$BatchTrevniReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/ColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/ColumnReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/CombKey.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/CombKey.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/ComparableKey.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/ComparableKey.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterBatchColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterBatchColumnReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterOperator.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterOperator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader$Params.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader$Params.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyComparator.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyComparator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyEntry.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyEntry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap$Entry.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap$Entry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader$TrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader$TrevniReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray$Element.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray$Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader$AvroReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader$AvroReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/StreamGobbler.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/StreamGobbler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/ConfigurationUtil.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/ConfigurationUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/InputFormatText.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/InputFormatText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/NeciFilterRecordReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/NeciFilterRecordReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/TextRecordReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/TextRecordReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-hadoop2.jar" afterPath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-hadoop2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-tests.jar" afterPath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-tests.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0.jar" afterPath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/original-cores-avro-1.9.0.jar" afterPath="$PROJECT_DIR$/avro/target/original-cores-avro-1.9.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/FilterTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/FilterTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest$Okey.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest$Okey.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/ReadTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/ReadTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/SortedAvroTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/SortedAvroTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/DataTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/DataTran.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/FilterRead.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/FilterRead.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/lFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/lFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/pFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/pFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/DateCompletedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/DateCompletedFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/MJCountryFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/MJCountryFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/PubQ1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/PubQ1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/VolumeFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/VolumeFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DataBankNameFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DataBankNameFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DateCompletedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DateCompletedFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GeneralNoteFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GeneralNoteFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GrCountryFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GrCountryFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/OwnerFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/OwnerFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/PubQ2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/PubQ2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/AuLastNameFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/AuLastNameFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/DateCreatedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/DateCreatedFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/KeywordFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/KeywordFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/PubQ3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/PubQ3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/DateCompletedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/DateCompletedFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/KeywordFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/KeywordFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/OwnerFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/OwnerFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/PubQ4.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/PubQ4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/AvroTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/AvroTran.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/BlockSeek.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/BlockSeek.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/JsonTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/JsonTran.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/Util.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/xmlTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/xmlTran.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/InputFormat_Q14.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/InputFormat_Q14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Lfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Lfilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/InputFormat_Q19.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/InputFormat_Q19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/InputFormat_Q20.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/InputFormat_Q20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Lfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Lfilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Pfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Pfilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/PfilterStart.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/PfilterStart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/InputFormat_Q6.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/InputFormat_Q6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myReduce.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0-tests.jar" afterPath="$PROJECT_DIR$/core/target/cores-core-1.9.0-tests.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0.jar" afterPath="$PROJECT_DIR$/core/target/cores-core-1.9.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/pom.xml" afterPath="$PROJECT_DIR$/avro/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/avro/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" />
+    </list>
+    <ignored path="cores-java.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/avro/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cores-java" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="TpchQueryRaw.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TpchQueryPqt.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/ParquetTest.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw1.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw2.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw3.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw4.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw5.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1431" />
+    <option name="y" value="-4" />
+    <option name="width" value="1375" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cores-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cores-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cores-avro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/scala/lib/scala-compiler.jar!/" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cores-avro" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4df04912-179a-41b4-a0a5-82a7295e1ed5" name="Default" comment="" />
+      <created>1506307709057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506307709057</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1431" y="-4" width="1375" height="904" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23636363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/q20/InputFormat_Q20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/ParquetTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

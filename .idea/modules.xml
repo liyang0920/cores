@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/avro/cores-avro.iml" filepath="$PROJECT_DIR$/avro/cores-avro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/cores-core.iml" filepath="$PROJECT_DIR$/core/cores-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cores-java.iml" filepath="$PROJECT_DIR$/cores-java.iml" />
+    </modules>
+  </component>
+</project>
