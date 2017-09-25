@@ -1,4 +1,4 @@
-package ppsl;
+package col;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -220,49 +220,49 @@ public class DataTran {
     }
 
     public static void main(String[] args) throws IOException {
-        String path = args[0];  // "resources/ppsl/", the path of the schemas of ppsl
+        String path = args[0];
         String result = args[1] + "result";
         String schema = args[1] + "lay";
         int free = Integer.parseInt(args[2]);
         int mul = Integer.parseInt(args[3]);
         int max = Integer.parseInt(args[4]);
 
-        int[] fields0 = new int[] { 1, 2, 0, 3 };
-        long start = System.currentTimeMillis();
-        lSort(path + "lineitem.tbl", schema + "1/single.avsc", fields0, result + "1/", free, mul);
-        long end = System.currentTimeMillis();
-        System.out.println("+++++++lineitem sort time+++++++" + (end - start));
+        //        int[] fields0 = new int[] { 1, 2, 0, 3 };
+        //        long start = System.currentTimeMillis();
+        //        lSort(path + "lineitem.tbl", schema + "1/single.avsc", fields0, result + "1/", free, mul);
+        //        long end = System.currentTimeMillis();
+        //        System.out.println("+++++++lineitem sort time+++++++" + (end - start));
 
-        int[] fields1 = new int[] { 0, 1 };
-        int[] fields2 = new int[] { 1, 2 };
-        int[] fields3 = new int[] { 0, 1 };
-        start = System.currentTimeMillis();
-        doublePri(path + "partsupp.tbl", result + "1/", schema + "2/", schema + "1/single.avsc", fields1, fields2,
-                fields3, result + "2/", free, mul);
-        end = System.currentTimeMillis();
-        System.out.println("+++++++partsupp&&lineitem time+++++++" + (end - start));
+        //        int[] fields1 = new int[] { 0, 1 };
+        //        int[] fields2 = new int[] { 1, 2 };
+        //        int[] fields3 = new int[] { 0, 1 };
+        //        start = System.currentTimeMillis();
+        //        doublePri(path + "partsupp.tbl", result + "1/", schema + "2/", schema + "1/single.avsc", fields1, fields2,
+        //                fields3, result + "2/", free, mul);
+        //        end = System.currentTimeMillis();
+        //        System.out.println("+++++++partsupp&&lineitem time+++++++" + (end - start));
 
         int[] fields4 = new int[] { 0 };
         int[] fields5 = new int[] { 0 };
-        start = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         finalTran(path + "part.tbl", result + "2/", schema + "3/", schema + "2/nest.avsc", fields4, fields5,
                 result + "3/", max, mul);
-        end = System.currentTimeMillis();
+        long end = System.currentTimeMillis();
         System.out.println("+++++++part&&partsupp&&lineitem time+++++++" + (end - start));
 
-        String resultPath = result + "3/";
-        int index = 200;
-        Schema s = new Schema.Parser().parse(new File(schema + "3/" + "nest.avsc"));
-        BatchAvroColumnWriter<Record> writer = new BatchAvroColumnWriter<Record>(s, resultPath, max, mul);
-        File[] files = new File[index];
-        for (int i = 0; i < index; i++)
-            files[i] = new File(resultPath + "file" + String.valueOf(i) + ".neci");
-        if (index == 1) {
-            new File(resultPath + "file0.head").renameTo(new File(resultPath + "result.head"));
-            new File(resultPath + "file0.neci").renameTo(new File(resultPath + "result.neci"));
-        } else {
-            writer.mergeFiles(files);
-        }
-        System.out.println("merge completed!");
+        //        String resultPath = result + "3/";
+        //        int index = 200;
+        //        Schema s = new Schema.Parser().parse(new File(schema + "3/" + "nest.avsc"));
+        //        BatchAvroColumnWriter<Record> writer = new BatchAvroColumnWriter<Record>(s, resultPath, max, mul);
+        //        File[] files = new File[index];
+        //        for (int i = 0; i < index; i++)
+        //            files[i] = new File(resultPath + "file" + String.valueOf(i) + ".neci");
+        //        if (index == 1) {
+        //            new File(resultPath + "file0.head").renameTo(new File(resultPath + "result.head"));
+        //            new File(resultPath + "file0.neci").renameTo(new File(resultPath + "result.neci"));
+        //        } else {
+        //            writer.mergeFiles(files);
+        //        }
+        //        System.out.println("merge completed!");
     }
 }

@@ -1,0 +1,18 @@
+{"type": "record", "name": "Part",
+ "fields": [
+	 {"name": "PartsuppList", "type":{"type": "array",
+	  "items":{"type": "record", "name": "Partsupp",
+	   "fields": [
+		 {"name": "LineitemList", "type":{"type": "array",
+		  "items": {"type": "record", "name": "Lineitem",
+		   "fields": [
+			 {"name": "l_quantity", "type": "float"},
+			 {"name": "l_extendedprice", "type": "float"}
+         ]
+        }
+       }}
+      ]
+	 }
+   }}
+ ]
+}

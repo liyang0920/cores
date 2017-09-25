@@ -33,6 +33,7 @@ q19/Lfilter2.class
 q14/Q14MapJobLocal$myCombiner.class
 q19/Pfilter2.class
 q14/Q14MapJob$myReduce.class
+col/DataTran.class
 pubmed/xmlTran.class
 q19/Q19MapJobLocal$myMap.class
 q20/Lfilter.class
@@ -95,6 +96,8 @@ q6/Lfilter3.class
 q20/Q20MapJobLocal$myMap.class
 q6/Q6MapJob$myReduce.class
 q19/Q19MapJobLocal$myCombiner.class
+col/DataTran$1.class
+col/DataMerge.class
 q6/InputFormat_Q6.class
 pubQ4/DateCompletedFilter.class
 q6/Lfilter2.class

@@ -1,0 +1,8 @@
+{"type": "record", "name": "Part",
+ "fields": [
+     {"name": "p_type", "type": "string"},
+	 {"name": "PartsuppList", "type":{"name": "PartsuppList", "type": "record",
+	  "fields":[{"name":"GeneSymbol", "type":"string"}]
+   }}
+ ]
+}

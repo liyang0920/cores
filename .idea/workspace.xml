@@ -2,267 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4df04912-179a-41b4-a0a5-82a7295e1ed5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_35.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_9_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_9_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_9_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_trevni_avro_1_9_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_trevni_core_1_9_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapdb_mapdb_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/cores-avro.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/ParquetTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06pqt5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q06raw5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14pqt5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q14raw5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19pqt5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q19raw5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20pqt5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw1.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw3.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw4.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw5.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/cores-core.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cores-java.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/classes/META-INF/maven/cores/cores-avro/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/classes/META-INF/maven/cores/cores-avro/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/package-info.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter$Blocks.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter$Blocks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnator.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/AvroColumnator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchAvroColumnWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchAvroColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchColumnReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader$BatchTrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader$BatchTrevniReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/BatchSortTrevniReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/ColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/ColumnReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/CombKey.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/CombKey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/ComparableKey.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/ComparableKey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterBatchColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterBatchColumnReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterOperator.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/FilterOperator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader$Params.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader$Params.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/InsertAvroColumnWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyComparator.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyEntry.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap$Entry.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap$Entry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/MyMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader$TrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader$TrevniReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortTrevniReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray$Element.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray$Element.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader$AvroReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader$AvroReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroWriter.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/SortedAvroWriter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/StreamGobbler.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/StreamGobbler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/ConfigurationUtil.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/ConfigurationUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/InputFormatText.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/InputFormatText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/NeciFilterRecordReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/NeciFilterRecordReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/TextRecordReader.class" afterPath="$PROJECT_DIR$/avro/target/classes/cores/avro/mapreduce/TextRecordReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-hadoop2.jar" afterPath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-hadoop2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-tests.jar" afterPath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0-tests.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0.jar" afterPath="$PROJECT_DIR$/avro/target/cores-avro-1.9.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/original-cores-avro-1.9.0.jar" afterPath="$PROJECT_DIR$/avro/target/original-cores-avro-1.9.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/FilterTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/FilterTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest$Okey.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest$Okey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/OLTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/ReadTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/ReadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/SortedAvroTest.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/neci/avro/SortedAvroTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/DataTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/DataTran.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/FilterRead.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/FilterRead.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/lFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/lFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/ppsl/pFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/ppsl/pFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/DateCompletedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/DateCompletedFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/MJCountryFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/MJCountryFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/PubQ1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/PubQ1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/VolumeFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ1/VolumeFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DataBankNameFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DataBankNameFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DateCompletedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/DateCompletedFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GeneralNoteFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GeneralNoteFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GrCountryFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/GrCountryFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/OwnerFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/OwnerFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/PubQ2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ2/PubQ2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/AuLastNameFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/AuLastNameFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/DateCreatedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/DateCreatedFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/KeywordFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/KeywordFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/PubQ3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ3/PubQ3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/DateCompletedFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/DateCompletedFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/KeywordFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/KeywordFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/OwnerFilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/OwnerFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/PubQ4.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubQ4/PubQ4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/AvroTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/AvroTran.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/BlockSeek.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/BlockSeek.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/JsonTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/JsonTran.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/Util.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/pubmed/xmlTran.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/pubmed/xmlTran.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/InputFormat_Q14.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/InputFormat_Q14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Lfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Lfilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobLocal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q14/Q14MapJobText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/InputFormat_Q19.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/InputFormat_Q19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Lfilter3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Pfilter3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobLocal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q19/Q19MapJobText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/InputFormat_Q20.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/InputFormat_Q20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Lfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Lfilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Pfilter.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Pfilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/PfilterStart.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/PfilterStart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobLocal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q20/Q20MapJobText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/InputFormat_Q6.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/InputFormat_Q6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter1.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter2.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter3.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Lfilter3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobLocal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myCombiner.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myMap.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myReduce.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText$myReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText.class" afterPath="$PROJECT_DIR$/avro/target/test-classes/q6/Q6MapJobText.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0-tests.jar" afterPath="$PROJECT_DIR$/core/target/cores-core-1.9.0-tests.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0.jar" afterPath="$PROJECT_DIR$/core/target/cores-core-1.9.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/pom.xml" afterPath="$PROJECT_DIR$/avro/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/avro/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BZip2Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BatchColumnFileReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockColumnValues.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockInputBuffer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockInputBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockOutputBuffer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockOutputBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/CacheBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/Checksum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/ColumnDescriptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/ColumnValues.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/Crc32Checksum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/DeflateCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/FileColumnMetaData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/FileMetaData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InputBuffer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InputBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InputBytes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InsertColumnFileReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/MetaData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/NullChecksum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/NullCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/OutputBuffer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/OutputBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/PageBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/SnappyCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/ValueType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0-tests.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/cores-avro.iml" afterPath="$PROJECT_DIR$/avro/cores-avro.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java" afterPath="$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java" />
     </list>
     <ignored path="cores-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,7 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TpchQueryRaw.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TpchQueryRaw.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
@@ -295,11 +69,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DataTran.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#10512#10520#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataMerge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/avro/src/test/java/col/DataMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataTran.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/avro/src/test/java/col/DataTran.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TpchQueryPqt.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -361,6 +170,8 @@
         <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/Q20raw5.scala" />
         <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala" />
         <option value="$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java" />
+        <option value="$PROJECT_DIR$/avro/src/test/java/col/DataTran.java" />
       </list>
     </option>
   </component>
@@ -388,7 +199,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -402,30 +213,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="cores-avro">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="avro">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cores-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cores-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cores-avro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -1131,19 +948,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryRaw.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/col/TestLargeBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10512#10520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/col/DataMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/scalaTest/TpchQueryPqt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avro/src/test/java/col/DataTran.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,6 +11,7 @@
 /home/ly/cores/avro/src/test/java/pubQ3/AuLastNameFilter.java
 /home/ly/cores/avro/src/test/java/pubQ1/PubQ1.java
 /home/ly/cores/avro/src/test/java/pubQ4/OwnerFilter.java
+/home/ly/cores/avro/src/test/java/col/DataTran.java
 /home/ly/cores/avro/src/test/java/q19/Lfilter3.java
 /home/ly/cores/avro/src/test/java/q20/Lfilter.java
 /home/ly/cores/avro/src/test/java/neci/avro/SortedAvroTest.java
@@ -64,3 +65,4 @@
 /home/ly/cores/avro/src/test/java/pubQ4/KeywordFilter.java
 /home/ly/cores/avro/src/test/java/pubQ2/DateCompletedFilter.java
 /home/ly/cores/avro/src/test/java/q19/Q19MapJobLocal.java
+/home/ly/cores/avro/src/test/java/col/DataMerge.java

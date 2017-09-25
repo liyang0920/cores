@@ -1,0 +1,24 @@
+{"type": "record", "name": "Part",
+ "fields": [
+     {"name": "p_brand", "type": "string"},
+     {"name": "p_size", "type": "int"},
+     {"name": "p_container", "type": "string"},
+	 {"name": "PartsuppList", "type":{"type": "array",
+	  "items":{"type": "record", "name": "Partsupp",
+	   "fields": [
+		 {"name": "LineitemList", "type":{"type": "array",
+		  "items": {"type": "record", "name": "Lineitem",
+		   "fields": [
+			 {"name": "l_quantity", "type": "float"},
+			 {"name": "l_extendedprice", "type": "float"},
+			 {"name": "l_discount", "type": "float"},
+			 {"name": "l_shipinstruct", "type": "string"},
+			 {"name": "l_shipmode", "type": "string"}
+         ]
+        }
+       }}
+      ]
+	 }
+   }}
+ ]
+}
