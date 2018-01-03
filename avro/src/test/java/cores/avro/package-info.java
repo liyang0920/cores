@@ -5,4 +5,4 @@
  * @author ly
  *
  */
-package neci.avro;
+package cores.avro;

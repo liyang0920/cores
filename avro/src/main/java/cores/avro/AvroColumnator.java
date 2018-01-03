@@ -24,6 +24,7 @@ import java.util.Map;
 
 import org.apache.avro.Schema;
 import org.apache.avro.Schema.Field;
+import org.apache.avro.Schema.Type;
 import org.apache.trevni.TrevniRuntimeException;
 
 import cores.core.FileColumnMetaData;
@@ -65,7 +66,15 @@ class AvroColumnator {
         if (isSimple(s)) {
             if (path == null)
                 path = s.getFullName();
-            addColumn(path, simpleValueType(s), parent, isArray);
+            if (s.getType().equals(Type.UNION)) {
+                List<Schema> brs = s.getTypes();
+                ValueType[] unionArray = new ValueType[brs.size()];
+                for (int i = 0; i < brs.size(); i++) {
+                    unionArray[i] = simpleValueType(brs.get(i));
+                }
+                addUnionColumn(path, unionArray, brs.size(), parent);
+            } else
+                addColumn(path, simpleValueType(s), parent, isArray);
             return;
         }
 
@@ -89,11 +98,6 @@ class AvroColumnator {
             case ARRAY:
                 path = path == null ? "[]" : path + "[]";
                 addArrayColumn(path, s.getElementType(), parent);
-                break;
-            case UNION:
-                for (Schema branch : s.getTypes()) // array per non-null branch
-                    if (branch.getType() != Schema.Type.NULL)
-                        addArrayColumn(p(path, branch, "/"), branch, parent);
                 break;
             default:
                 throw new TrevniRuntimeException("Unknown schema: " + s);
@@ -120,6 +124,19 @@ class AvroColumnator {
         column.isArray(isArray);
         columns.add(column);
         arrayWidths.add(1); // placeholder
+        return column;
+    }
+
+    private FileColumnMetaData addUnionColumn(String path, ValueType[] unionArray, int union,
+            FileColumnMetaData parent) {
+        FileColumnMetaData column = new FileColumnMetaData(path, ValueType.UNION, union, unionArray);
+        if (parent != null) {
+            column.setParent(parent);
+            column.setLayer(parent.getLayer() + 1);
+        }
+        column.isArray(false);
+        columns.add(column);
+        arrayWidths.add(1);
         return column;
     }
 
@@ -153,6 +170,7 @@ class AvroColumnator {
             case STRING:
             case ENUM:
             case FIXED:
+            case UNION:
                 return true;
             default:
                 return false;
@@ -181,6 +199,8 @@ class AvroColumnator {
                 return ValueType.INT;
             case FIXED:
                 return ValueType.BYTES;
+            case UNION:
+                return ValueType.UNION;
             default:
                 throw new TrevniRuntimeException("Unknown schema: " + s);
         }

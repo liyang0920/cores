@@ -20,12 +20,18 @@ public class BlockInputBuffer {
 
     private static final CharsetDecoder UTF8 = Charset.forName("UTF-8").newDecoder();
 
-    //    public BlockInputBuffer(ByteBuffer data) {
-    //        buf = data.array();
-    //    }
+    public BlockInputBuffer() {
+
+    }
 
     public BlockInputBuffer(ByteBuffer data, int count) {
         buf = data.array();
+        this.count = count * 2;
+        //        offset = count * 2;
+    }
+
+    public BlockInputBuffer(byte[] data, int count) {
+        buf = data;
         this.count = count * 2;
         //        offset = count * 2;
     }
@@ -144,19 +150,19 @@ public class BlockInputBuffer {
 
     public int readFixed32() throws IOException {
         int len = 1;
-        int n = (buf[pos] & 0xff) | ((buf[pos + len++] & 0xff) << 8) | ((buf[pos + len++] & 0xff) << 16)
-                | ((buf[pos + len++] & 0xff) << 24);
         if ((pos + 4) > buf.length)
             throw new EOFException();
+        int n = (buf[pos] & 0xff) | ((buf[pos + len++] & 0xff) << 8) | ((buf[pos + len++] & 0xff) << 16)
+                | ((buf[pos + len++] & 0xff) << 24);
         pos += 4;
         return n;
     }
 
     public int readFixed16() throws IOException {
         int len = 1;
-        int n = (buf[pos] & 0xff) | ((buf[pos + len++] & 0xff) << 8);
         if ((pos + 2) > buf.length)
             throw new EOFException();
+        int n = (buf[pos] & 0xff) | ((buf[pos + len++] & 0xff) << 8);
         pos += 2;
         return n;
     }
@@ -167,6 +173,17 @@ public class BlockInputBuffer {
 
     public long readFixed64() throws IOException {
         return (readFixed32() & 0xFFFFFFFFL) | (((long) readFixed32()) << 32);
+    }
+
+    public void skipNull() throws IOException {
+        offset = readFixed16();
+    }
+
+    public byte[] readUnionFixed(int len) throws IOException {
+        byte[] res = new byte[len];
+        System.arraycopy(buf, offset + count, res, 0, len);
+        offset = readFixed16();
+        return res;
     }
 
     public String readString() throws IOException {

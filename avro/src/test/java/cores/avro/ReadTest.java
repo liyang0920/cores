@@ -1,4 +1,4 @@
-package neci.avro;
+package cores.avro;
 
 import java.io.File;
 import java.io.IOException;

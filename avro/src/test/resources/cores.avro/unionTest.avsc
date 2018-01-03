@@ -1,0 +1,7 @@
+{"name": "union", "type": "record",
+ "fields":[
+      {"name": "intUnion", "type": ["int", "null"]},
+      {"name": "stringUnion", "type": ["string", "null"]},
+      {"name": "floatUnion", "type": ["float", "null"]}
+  ]
+}

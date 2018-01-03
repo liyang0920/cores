@@ -47,12 +47,22 @@ public class BlockColumnValues<T extends Comparable> implements Iterator<T>, Ite
     //    protected List<Long> blockEnd;
     //    protected List<Long> blockOffset;
 
+    protected boolean isUnion;
+    protected int unionBits;
+    protected ValueType[] unionArray;
+
     protected BlockColumnValues(ColumnDescriptor column) throws IOException {
         this.column = column;
         this.type = column.metaData.getType();
         this.codec = Codec.get(column.metaData);
         this.checksum = Checksum.get(column.metaData);
         this.in = new InputBuffer(column.dataFile);
+
+        if (type.equals(ValueType.UNION)) {
+            isUnion = true;
+            unionBits = column.metaData.getUnionBits();
+            unionArray = column.metaData.getUnionArray();
+        }
 
         column.ensureBlocksRead();
     }
@@ -197,7 +207,10 @@ public class BlockColumnValues<T extends Comparable> implements Iterator<T>, Ite
         ByteBuffer data = codec.decompress(ByteBuffer.wrap(raw, 0, end));
         if (!checksum.compute(data).equals(ByteBuffer.wrap(raw, end, checksum.size())))
             throw new IOException("Checksums mismatch.");
-        values = new BlockInputBuffer(data, column.blocks[block].rowCount);
+        if (isUnion)
+            values = new UnionInputBuffer(data, column.blocks[block].rowCount, unionBits, unionArray);
+        else
+            values = new BlockInputBuffer(data, column.blocks[block].rowCount);
         long e = System.nanoTime();
         //        blockTime.add((e - s));
         //        blockStart.add(s);

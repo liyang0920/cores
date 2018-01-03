@@ -22,6 +22,7 @@ public class BlockOutputBuffer {
     public BlockOutputBuffer() {
         buf1 = new byte[BLOCK_SIZE];
         buf2 = new byte[BLOCK_SIZE];
+        bitCount = 0;
     }
 
     public boolean isFull() {
@@ -35,6 +36,9 @@ public class BlockOutputBuffer {
     public void close() {
         buf1 = null;
         buf2 = null;
+        count1 = 0;
+        count2 = 0;
+        bitCount = 0;
     }
 
     public void writeValue(Object value, ValueType type) throws IOException {
@@ -98,11 +102,23 @@ public class BlockOutputBuffer {
             bitCount = 0;
     }
 
+    public void writeBooleanByte(boolean value) {
+        ensure(1);
+        count2++;
+        buf2[count2 - 1] = value ? (byte) 1 : (byte) 0;
+    }
+
     public void writeLength(int length) throws IOException {
         writeFixed32(length);
     }
 
     private static final Charset UTF8 = Charset.forName("UTF-8");
+
+    public void writeNull() throws IOException {
+        buf1[count1] = (byte) ((count2) & 0xFF);
+        buf1[count1 + 1] = (byte) ((count2 >>> 8) & 0xFF);
+        count1 += 2;
+    }
 
     public void writeString(String string) throws IOException {
         byte[] bytes = string.getBytes(UTF8);
@@ -170,6 +186,7 @@ public class BlockOutputBuffer {
     public synchronized void reset() {
         count1 = 0;
         count2 = 0;
+        bitCount = 0;
     }
 
     public synchronized void write(byte b[], int off, int len) {

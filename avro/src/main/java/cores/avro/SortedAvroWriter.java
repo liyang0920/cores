@@ -68,13 +68,13 @@ public class SortedAvroWriter<K, V> {
         //    }
         sort.put(key, value);
         if (x == 0) {
-            bytes += value.toString().length();
+            //            bytes += value.toString().length();
             if (Runtime.getRuntime().freeMemory() <= (free * 1024 * 1024)) {
                 max = sort.size();
                 mul = max / mul;
                 System.out.println("####sortarray max####" + mul);
                 System.out.println("####max####" + max);
-                System.out.println("&&&&bytes&&&&\t" + bytes);
+                //                System.out.println("&&&&bytes&&&&\t" + bytes);
                 writeToFile();
             }
         } else {

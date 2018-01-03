@@ -17,7 +17,9 @@ package cores.core;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.trevni.TrevniRuntimeException;
 
@@ -31,6 +33,8 @@ public class FileColumnMetaData extends MetaData<FileColumnMetaData> {
     static final String PARENT_KEY = RESERVED_KEY_PREFIX + "parent";
     static final String ARRAY_KEY = RESERVED_KEY_PREFIX + "array";
     static final String LAYER_KEY = RESERVED_KEY_PREFIX + "layer";
+    static final String UNION_KEY = RESERVED_KEY_PREFIX + "union";
+    static final String UNION_ARRAY = RESERVED_KEY_PREFIX + "unionArray";
 
     // cache these values for better performance
     private String name;
@@ -39,6 +43,11 @@ public class FileColumnMetaData extends MetaData<FileColumnMetaData> {
     private FileColumnMetaData parent;
     private boolean isArray;
     private int layer;
+
+    private int union; //the schemas' number of the union
+    private int unionBits; //the index bits of a unit
+    private ValueType[] unionArray; //the valuetype array of the union
+    public Map<ValueType, Integer> unionToInteger; //the index of the valuetype
 
     private transient List<FileColumnMetaData> children = new ArrayList<FileColumnMetaData>();
     private transient int number = -1;
@@ -56,6 +65,61 @@ public class FileColumnMetaData extends MetaData<FileColumnMetaData> {
         setReserved(TYPE_KEY, type.getName());
         this.layer = 0;
         setReserved(LAYER_KEY, new String() + layer);
+    }
+
+    public FileColumnMetaData(String name, ValueType type, int union, ValueType[] unionArray) {
+        this.name = name;
+        setReserved(NAME_KEY, name);
+        this.type = type;
+        setReserved(TYPE_KEY, type.getName());
+        this.layer = 0;
+        setReserved(LAYER_KEY, new String() + layer);
+        this.union = union;
+        setReserved(UNION_KEY, new String() + union);
+        this.unionArray = unionArray;
+
+        if (union <= 2)
+            unionBits = 1;
+        else if (union <= 4)
+            unionBits = 2;
+        else if (union <= 16)
+            unionBits = 4;
+        else if (union <= 32)
+            unionBits = 8;
+        else
+            throw new TrevniRuntimeException("this union schema has too many children!");
+
+        StringBuilder str = new StringBuilder();
+        str.append(unionArray[0].toString());
+        for (int i = 1; i < unionArray.length; i++)
+            str.append("|" + unionArray[i].toString());
+        setReserved(UNION_ARRAY, str.toString());
+        createUnionToInteger();
+    }
+
+    public void createUnionToInteger() {
+        if (type != ValueType.UNION)
+            throw new TrevniRuntimeException("This is not a union column!");
+        unionToInteger = new HashMap<ValueType, Integer>();
+        for (int i = 0; i < union; i++) {
+            unionToInteger.put(unionArray[i], i);
+        }
+    }
+
+    public Integer getUnionIndex(ValueType type) {
+        return unionToInteger.get(type);
+    }
+
+    public int getUnion() {
+        return union;
+    }
+
+    public int getUnionBits() {
+        return unionBits;
+    }
+
+    public ValueType[] getUnionArray() {
+        return unionArray;
     }
 
     /**
@@ -162,6 +226,25 @@ public class FileColumnMetaData extends MetaData<FileColumnMetaData> {
         result.values = result.getBoolean(VALUES_KEY);
         result.isArray = result.getBoolean(ARRAY_KEY);
         result.layer = result.getInteger(LAYER_KEY);
+        if (result.type.equals(ValueType.UNION)) {
+            result.union = result.getInteger(UNION_KEY);
+
+            if (result.union <= 2)
+                result.unionBits = 1;
+            else if (result.union <= 4)
+                result.unionBits = 2;
+            else if (result.union <= 16)
+                result.unionBits = 4;
+            else if (result.union <= 32)
+                result.unionBits = 8;
+            else
+                throw new TrevniRuntimeException("this union schema has too many children!");
+
+            String[] tmp = result.getString(UNION_ARRAY).split("\\|");
+            result.unionArray = new ValueType[tmp.length];
+            for (int i = 0; i < tmp.length; i++)
+                result.unionArray[i] = ValueType.valueOf(tmp[i]);
+        }
 
         String parentName = result.getString(PARENT_KEY);
         if (parentName != null)
@@ -178,6 +261,25 @@ public class FileColumnMetaData extends MetaData<FileColumnMetaData> {
         result.values = result.getBoolean(VALUES_KEY);
         result.isArray = result.getBoolean(ARRAY_KEY);
         result.layer = result.getInteger(LAYER_KEY);
+        if (result.type.equals(ValueType.UNION)) {
+            result.union = result.getInteger(UNION_KEY);
+
+            if (result.union <= 2)
+                result.unionBits = 1;
+            else if (result.union <= 4)
+                result.unionBits = 2;
+            else if (result.union <= 16)
+                result.unionBits = 4;
+            else if (result.union <= 32)
+                result.unionBits = 8;
+            else
+                throw new TrevniRuntimeException("this union schema has too many children!");
+
+            String[] tmp = result.getString(UNION_ARRAY).split("\\|");
+            result.unionArray = new ValueType[tmp.length];
+            for (int i = 0; i < tmp.length; i++)
+                result.unionArray[i] = ValueType.valueOf(tmp[i]);
+        }
 
         String parentName = result.getString(PARENT_KEY);
         if (parentName != null)

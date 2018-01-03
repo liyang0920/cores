@@ -1,7 +1,5 @@
 package cores.avro;
 
-import java.util.List;
-
 import org.apache.avro.Schema.Field;
 import org.apache.avro.generic.GenericData.Record;
 
@@ -22,24 +20,39 @@ public class ComparableKey implements Comparable<ComparableKey> {
         return keyFields;
     }
 
+    //    public int compareTo(ComparableKey o) {
+    //        assert (keyFields.length == o.keyFields.length);
+    //        List<Field> fs = record.getSchema().getFields();
+    //        for (int i = 0; i < keyFields.length; i++) {
+    //            if (isInteger(fs.get(keyFields[i]))) {
+    //                long k1 = Long.parseLong(record.get(keyFields[i]).toString());
+    //                long k2 = Long.parseLong(o.record.get(o.keyFields[i]).toString());
+    //                if (k1 > k2) {
+    //                    return 1;
+    //                } else if (k1 < k2) {
+    //                    return -1;
+    //                }
+    //            } else {
+    //                String k1 = record.get(keyFields[i]).toString();
+    //                String k2 = o.record.get(o.keyFields[i]).toString();
+    //                if (k1.compareTo(k2) != 0) {
+    //                    return k1.compareTo(k2);
+    //                }
+    //            }
+    //        }
+    //        return 0;
+    //    }
+
+    @Override
     public int compareTo(ComparableKey o) {
         assert (keyFields.length == o.keyFields.length);
-        List<Field> fs = record.getSchema().getFields();
         for (int i = 0; i < keyFields.length; i++) {
-            if (isInteger(fs.get(keyFields[i]))) {
-                long k1 = Long.parseLong(record.get(keyFields[i]).toString());
-                long k2 = Long.parseLong(o.record.get(o.keyFields[i]).toString());
-                if (k1 > k2) {
-                    return 1;
-                } else if (k1 < k2) {
-                    return -1;
-                }
-            } else {
-                String k1 = record.get(keyFields[i]).toString();
-                String k2 = o.record.get(o.keyFields[i]).toString();
-                if (k1.compareTo(k2) != 0) {
-                    return k1.compareTo(k2);
-                }
+            long k1 = Long.parseLong(record.get(keyFields[i]).toString());
+            long k2 = Long.parseLong(o.record.get(o.keyFields[i]).toString());
+            if (k1 > k2) {
+                return 1;
+            } else if (k1 < k2) {
+                return -1;
             }
         }
         return 0;

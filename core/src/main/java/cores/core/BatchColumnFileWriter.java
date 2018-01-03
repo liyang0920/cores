@@ -5,6 +5,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import org.apache.trevni.TrevniRuntimeException;
+
 import cores.core.InsertColumnFileWriter.Blocks;
 import cores.core.InsertColumnFileWriter.ListArr;
 
@@ -134,7 +136,6 @@ public class BatchColumnFileWriter {
     }
 
     private void mergeColumn(OutputStream out, int column) throws IOException {
-        BlockOutputBuffer buf = new BlockOutputBuffer();
         int row = 0;
         BlockColumnValues[] values = new BlockColumnValues[readers.length];
         for (int i = 0; i < readers.length; i++) {
@@ -148,27 +149,59 @@ public class BatchColumnFileWriter {
         }
         ValueType type = meta[column].getType();
 
-        for (int i = 0; i < readers.length; i++) {
-            while (values[i].hasNext()) {
-                if (buf.isFull()) {
-                    BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
-                    blocks[column].add(b);
-                    row = 0;
-                    buf.writeTo(out);
-                    buf.reset();
+        if (type.equals(ValueType.UNION)) {
+            UnionOutputBuffer ubuf = new UnionOutputBuffer(meta[column].getUnionArray(), meta[column].getUnionBits());
+            for (int i = 0; i < readers.length; i++) {
+                while (values[i].hasNext()) {
+                    if (ubuf.isFull()) {
+                        BlockDescriptor b = new BlockDescriptor(row, ubuf.size(), ubuf.size());
+                        blocks[column].add(b);
+                        row = 0;
+                        ubuf.writeTo(out);
+                        ubuf.reset();
+                    }
+                    values[i].startRow();
+                    Object x = values[i].nextValue();
+                    ValueType tt = TranToValueType.tran(x);
+                    Integer index = meta[column].getUnionIndex(tt);
+                    if (index == null)
+                        throw new TrevniRuntimeException("Illegal value type: " + tt);
+                    ubuf.writeValue(x, index);
+                    row++;
                 }
-                values[i].startRow();
-                buf.writeValue(values[i].nextValue(), type);
-                row++;
             }
-        }
+            if (ubuf.size() != 0) {
+                BlockDescriptor b = new BlockDescriptor(row, ubuf.size(), ubuf.size());
+                blocks[column].add(b);
+                ubuf.writeTo(out);
+                ubuf.reset();
+            }
+            ubuf.close();
+        } else {
+            BlockOutputBuffer buf = new BlockOutputBuffer();
 
-        if (buf.size() != 0) {
-            BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
-            blocks[column].add(b);
-            buf.writeTo(out);
+            for (int i = 0; i < readers.length; i++) {
+                while (values[i].hasNext()) {
+                    if (buf.isFull()) {
+                        BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
+                        blocks[column].add(b);
+                        row = 0;
+                        buf.writeTo(out);
+                        buf.reset();
+                    }
+                    values[i].startRow();
+                    buf.writeValue(values[i].nextValue(), type);
+                    row++;
+                }
+            }
+
+            if (buf.size() != 0) {
+                BlockDescriptor b = new BlockDescriptor(row, buf.size(), buf.size());
+                blocks[column].add(b);
+                buf.writeTo(out);
+            }
+            buf.close();
         }
-        buf.close();
     }
 
     private void mergeArrayColumn(OutputStream out, int column) throws IOException {
@@ -220,6 +253,30 @@ public class BatchColumnFileWriter {
                     buf.writeLength((Integer) x);
                     row++;
                 }
+            } else if (type.equals(ValueType.UNION)) {
+                UnionOutputBuffer ubuf = new UnionOutputBuffer(meta[i].getUnionArray(), meta[i].getUnionBits());
+                for (Object x : insert[i].toArray()) {
+                    if (ubuf.isFull()) {
+                        BlockDescriptor b = new BlockDescriptor(row, ubuf.size(), ubuf.size());
+                        blocks[i].add(b);
+                        row = 0;
+                        ubuf.writeTo(out);
+                        ubuf.reset();
+                    }
+                    ValueType tt = TranToValueType.tran(x);
+                    Integer index = meta[i].getUnionIndex(tt);
+                    if (index == null)
+                        throw new TrevniRuntimeException("Illegal value type: " + tt);
+                    ubuf.writeValue(x, index);
+                    row++;
+                }
+                if (ubuf.size() != 0) {
+                    BlockDescriptor b = new BlockDescriptor(row, ubuf.size(), ubuf.size());
+                    blocks[i].add(b);
+                    ubuf.writeTo(out);
+                    ubuf.reset();
+                }
+                ubuf.close();
             } else {
                 for (Object x : insert[i].toArray()) {
                     if (buf.isFull()) {
@@ -269,6 +326,30 @@ public class BatchColumnFileWriter {
                     buf.writeLength((Integer) tmp);
                     row++;
                 }
+            } else if (type.equals(ValueType.UNION)) {
+                UnionOutputBuffer ubuf = new UnionOutputBuffer(meta[i].getUnionArray(), meta[i].getUnionBits());
+                for (Object x : insert[i].toArray()) {
+                    if (ubuf.isFull()) {
+                        BlockDescriptor b = new BlockDescriptor(row, ubuf.size(), ubuf.size());
+                        blocks[i].add(b);
+                        row = 0;
+                        ubuf.writeTo(out);
+                        ubuf.reset();
+                    }
+                    ValueType tt = TranToValueType.tran(x);
+                    Integer index = meta[i].getUnionIndex(tt);
+                    if (index == null)
+                        throw new TrevniRuntimeException("Illegal value type: " + tt);
+                    ubuf.writeValue(x, index);
+                    row++;
+                }
+                if (ubuf.size() != 0) {
+                    BlockDescriptor b = new BlockDescriptor(row, ubuf.size(), ubuf.size());
+                    blocks[i].add(b);
+                    ubuf.writeTo(out);
+                    ubuf.reset();
+                }
+                ubuf.close();
             } else {
                 for (Object x : insert[i].toArray()) {
                     if (buf.isFull()) {

@@ -1,4 +1,4 @@
-package neci.avro;
+package cores.avro;
 
 import cores.avro.FilterOperator;
 

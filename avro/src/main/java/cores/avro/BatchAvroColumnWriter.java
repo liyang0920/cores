@@ -166,6 +166,10 @@ public class BatchAvroColumnWriter<T> {
 
     private void appendValue(Object o, Schema s, int column) throws IOException {
         switch (s.getType()) {
+            case UNION:
+                if (o != null && o instanceof Utf8)
+                    o = o.toString();
+                break;
             case STRING:
                 if (o instanceof Utf8)
                     o = o.toString();

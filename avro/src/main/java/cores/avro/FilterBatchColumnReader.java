@@ -57,6 +57,9 @@ public class FilterBatchColumnReader<D> implements Closeable {
     //    protected List<Long> blockEnd;
     //    protected List<Long> blockOffset;
 
+    protected boolean noFilters;
+    protected int currentMax;
+
     static int max = 100000;
 
     public FilterBatchColumnReader() {
@@ -93,6 +96,7 @@ public class FilterBatchColumnReader<D> implements Closeable {
             //                le++;
             //            }
         }
+        noFilters = (filters == null);
     }
 
     public FilterBatchColumnReader(Input data, Input head, FilterOperator[] filters, GenericData model)
@@ -106,6 +110,7 @@ public class FilterBatchColumnReader<D> implements Closeable {
         for (int i = 0; i < values.length; i++) {
             values[i] = reader.getValues(i);
         }
+        noFilters = (filters == null);
     }
 
     //    public long getTimeIO() {
@@ -499,7 +504,7 @@ public class FilterBatchColumnReader<D> implements Closeable {
             values[col].startRow();
             int[] res = values[col].nextLengthAndOffset();
             if (res[0] > 0)
-                set.set(res[1], res[0]);
+                set.set(res[1], res[0] + res[1]);
             q = p;
             p = filterSet.nextSetBit(1);
         }
@@ -642,10 +647,14 @@ public class FilterBatchColumnReader<D> implements Closeable {
     }
 
     public void createFilterRead() throws IOException {
-        createFilterRead(max);
+        if (noFilters)
+            createRead(max);
+        else
+            createFilterRead(max);
     }
 
     public void createFilterRead(int max) throws IOException {
+        assert (!noFilters);
         this.max = max;
         for (int i = 0; i < readNO.length; i++) {
             //            values[readNO[i]].createTime();
@@ -655,6 +664,61 @@ public class FilterBatchColumnReader<D> implements Closeable {
         readValue = new Object[readNO.length][];
         readLength = new HashMap<String, Integer>();
         readImplPri();
+    }
+
+    public void createRead(int max) throws IOException {
+        assert (noFilters);
+        this.max = max;
+        for (int i = 0; i < readNO.length; i++) {
+            //            values[readNO[i]].createTime();
+            //            values[readNO[i]].createSeekBlock();
+            values[readNO[i]].create();
+        }
+        readValue = new Object[readNO.length][];
+        readLength = new HashMap<String, Integer>();
+        all = values[readNO[0]].getLastRow();
+        readImplPriNoFilters();
+    }
+
+    private void readImplPriNoFilters() throws IOException {
+        if (all == 0)
+            return;
+        if (all > max) {
+            currentMax = max;
+            readLength.put(readParent, max);
+        } else {
+            currentMax = all;
+            readLength.put(readParent, all);
+        }
+        readImplNoFilters();
+        all -= readLength.get(readParent);
+        readIndex = new int[readNO.length];
+    }
+
+    private void readImplNoFilters() throws IOException {
+        for (int i = 0; i < readNO.length; i++) {
+            currentMax = readLength.get(values[readNO[i]].getParentName());
+            readValue[i] = new Object[currentMax];
+            if (values[readNO[i]].isArray()) {
+                int j = 0;
+                int[] lenAndOff = new int[2];
+                values[readNO[i]].startRow();
+                lenAndOff = values[readNO[i]].nextLengthAndOffset();
+                readValue[i][j++] = lenAndOff[0];
+                int off = lenAndOff[1];
+                while (j < currentMax) {
+                    values[readNO[i]].startRow();
+                    lenAndOff = values[readNO[i]].nextLengthAndOffset();
+                    readValue[i][j++] = lenAndOff[0];
+                }
+                readLength.put(values[readNO[i]].getName(), lenAndOff[0] + lenAndOff[1] - off);
+            } else {
+                int j = 0;
+                while (j < currentMax) {
+                    readValue[i][j++] = values[readNO[i]].next();
+                }
+            }
+        }
     }
 
     private void readImplPri() throws IOException {
@@ -778,7 +842,10 @@ public class FilterBatchColumnReader<D> implements Closeable {
     public D next() {
         try {
             if (readIndex[0] == readValue[0].length) {
-                readImpl();
+                if (noFilters)
+                    readImplPriNoFilters();
+                else
+                    readImpl();
             }
             column = 0;
             return (D) read(readSchema);

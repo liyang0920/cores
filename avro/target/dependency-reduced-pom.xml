@@ -189,6 +189,12 @@
     <dependencies>
       <dependency>
         <groupId>org.apache.avro</groupId>
+        <artifactId>avro</artifactId>
+        <version>${avro.version}</version>
+        <scope>compile</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.avro</groupId>
         <artifactId>trevni-core</artifactId>
         <version>${avro.version}</version>
       </dependency>

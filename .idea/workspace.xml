@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4df04912-179a-41b4-a0a5-82a7295e1ed5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BZip2Codec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BatchColumnFileReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockColumnValues.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockInputBuffer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockInputBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockOutputBuffer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/BlockOutputBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/CacheBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/Checksum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/Codec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/ColumnDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/ColumnValues.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/Crc32Checksum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/DeflateCodec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/FileColumnMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/FileMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InputBuffer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InputBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InputBytes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/InsertColumnFileReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/MetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/NullChecksum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/NullCodec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/OutputBuffer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/OutputBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/PageBuffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/SnappyCodec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/classes/cores/core/ValueType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0-tests.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/cores-core-1.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/cores-avro.iml" afterPath="$PROJECT_DIR$/avro/cores-avro.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java" afterPath="$PROJECT_DIR$/avro/src/test/java/ppsl/DataTran.java" />
-    </list>
+    <list default="true" id="4df04912-179a-41b4-a0a5-82a7295e1ed5" name="Default" comment="" />
     <ignored path="cores-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/avro/target/" />
@@ -565,7 +529,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="-4" width="1375" height="904" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -578,7 +542,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23636363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23636363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -621,7 +585,7 @@
         <state relative-caret-position="18">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#19#61#0" expanded="true" />
+            <element signature="e#19#61#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -631,7 +595,7 @@
         <state relative-caret-position="198">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <element signature="e#19#56#0" expanded="true" />
+            <element signature="e#19#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
