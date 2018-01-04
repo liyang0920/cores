@@ -1,4 +1,4 @@
-#CORES
+#cores
 
 INSTRODUCTION
     We present CORES (Column-Oriented Regeneration Embedding Scheme) to push high-selective filters down into the column-based storage, where each filter consists of several filtering conditions on a field. By applying the filtering conditions to the column scan in storage, we show that both the I/O and the deserialization cost can be significantly reduced by introducing a fine-gained composition based on bitset. We also generalize this technique by two pair-wise operations rollup and drilldown, such that a series of conjunctive filters can effectively deliver their payloads in nested schema. The proposed methods are implemented on an open source platform. For practical purposes, we highlight how to effectively construct
