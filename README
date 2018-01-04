@@ -12,3 +12,9 @@ Important Implementation
 State-of-the-art Comparison
 [project](https://github.com/liyang0920/cores)
 
+Test
+cores test: (https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/cores/query)
+avro test: (https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/avro/query)
+trevni test: (https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/trevni/query)
+parquet test: (https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/parquet/query)
+

@@ -1,6 +1,6 @@
 {"type": "record", "name": "Partsupp",
  "fields": [
-     {"name": "ps_suppkey", "type": "int"},
-     {"name": "ps_availqty", "type": "int"}
+     {"name": "ps_suppkey", "type": ["int", "null"]},
+     {"name": "ps_availqty", "type": ["int", "null"]}
  ]
 }
