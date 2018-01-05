@@ -36,5 +36,5 @@ State-of-the-art Comparison
 
 [Spark with hdfs/parquet/json/avro](https://github.com/lwhay/spark-tpch/tree/parquet/src/main/scala/cores "https://github.com/lwhay/spark-tpch/tree/parquet/src/main/scala/cores")
 
-[Hive with MapReudce and Tez](https://git.coding.net/HotGaoGao/experiments.git "https://git.coding.net/HotGaoGao/experiments.git")
+[Hive with MapReudce and Tez](https://github.com/whulyx/hive-experiment "https://github.com/whulyx/hive-experiment")
 
