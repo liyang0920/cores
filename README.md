@@ -24,15 +24,15 @@ Contains the test framework. Several tests are making sure the examples runs. Th
 State-of-the-art Comparison
 -----
 
-[project](https://github.com/liyang0920/cores "悬停显示")
+[project](https://github.com/liyang0920/cores "https://github.com/liyang0920/cores")
 
-[cores test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/cores/query "悬停显示")
+[cores test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/cores/query "https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/cores/query")
 
-[avro test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/avro/query "悬停显示")
+[avro test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/avro/query "https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/avro/query")
 
-[trevni test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/trevni/query "悬停显示")
+[trevni test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/trevni/query "https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/trevni/query")
 
-[parquet test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/parquet/query "悬停显示")
+[parquet test](https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/parquet/query "https://github.com/liyang0920/cores/tree/master/avro/src/test/java/local/parquet/query")
 
 [Spark with hdfs/parquet/json/avro](https://github.com/lwhay/spark-tpch/tree/parquet/src/main/scala/cores "悬停显示")
 
