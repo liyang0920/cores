@@ -1,10 +1,10 @@
 {"type": "record", "name": "Partsupp",
  "fields": [
-     {"name": "ps_partkey", "type": "int", "order": "ignore"},
-     {"name": "ps_suppkey", "type": "int"},
-     {"name": "ps_availqty", "type": "int"},
-     {"name": "ps_supplycost", "type": "float"},
-     {"name": "ps_comment", "type": "string"},
+     {"name": "ps_partkey", "type": ["int", "null"], "order": "ignore"},
+     {"name": "ps_suppkey", "type": ["int", "null"]},
+     {"name": "ps_availqty", "type": ["int", "null"]},
+     {"name": "ps_supplycost", "type": ["float", "null"]},
+     {"name": "ps_comment", "type": ["string", "null"]},
 	 {"name": "LineitemList", "type":{"type": "array",
 	  "items": {"type": "record", "name": "Lineitem",
 	   "fields": [
