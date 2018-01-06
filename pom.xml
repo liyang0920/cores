@@ -72,7 +72,7 @@
     <file-management.version>1.2.1</file-management.version>
     <shade-plugin.version>2.4.3</shade-plugin.version>
     <archetype-plugin.version>2.2</archetype-plugin.version>
-    <avro.version>1.9.0-SNAPSHOT</avro.version>
+    <avro.version>1.8.2</avro.version>
   </properties>
 
   <modules>
