@@ -38,3 +38,30 @@ State-of-the-art Comparison
 
 [Hive with MapReudce and Tez](https://github.com/whulyx/hive-experiment "https://github.com/whulyx/hive-experiment")
 
+
+
+Appendex: Queries and their parameters
+-----
+### A. DETAILSOFMODIFIEDTPCHQUERIES.
+-----
+#### A.1 MQ6 and its variant parameters.
+-----
+SELECT SUM(l.l_extendedprice * l.l_discount) as revenue
+
+FROM LineItem AS l
+
+WHERE l.l_shipdate BETWEEN @date1 AND @date2
+
+AND l.l_discount BETWEEN @discount1 AND @discount2
+
+AND l.l_quantity <= @quantity;
+
+Table4: Different selectivity by varying selection conditions in query MQ6.
+
+Variables| @date1| @date2| @discount1| @discount2 |@quantity
+--- | --- | --- | --- |--- |---
+0.1 |"1992-01-01"| "1994-01-01"| 0 |0.04 |40
+0.01 |"1993-01-01"| "1994-01-01"| 0.02| 0.04| 13
+0.001| "1993-10-10"| "1994-01-01"| 0.03 |0.04 |9
+0.0001| "1993-11-01" |"1994-01-01"| 0.04| 0.04| 3
+0.00001| "1992-12-19"| "1994-01-01"| 0.04| 0.04| 2
