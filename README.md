@@ -23,6 +23,8 @@ Contains the test framework. Several tests are making sure the examples runs. Th
 
 State-of-the-art Comparison
 -----
+### Codebase of the comparisons.
+To measure the efficiency of CORES, three data formats, i.e., Avro, Trevni and Parquet, are conducted in our experiments. In addition, we also measure CORES compared to several big-data platform (Spark, Hive/Tez) in the MapReduce environments. The experimental codes are as follows.
 
 [project](https://github.com/liyang0920/cores "https://github.com/liyang0920/cores")
 
@@ -38,7 +40,17 @@ State-of-the-art Comparison
 
 [Hive with MapReudce and Tez](https://github.com/whulyx/hive-experiment "https://github.com/whulyx/hive-experiment")
 
+### Staged costs of CORES with cascading/merging schemes.
+To detail the staged costs of CORES, we execute the queries with cold cache on the nested dataset of TPCH-S and Pubmed. In all the figures in this section, the runtime of CORES is divided into three parts from bottom up, respectively denoting the I/O, deserialization, and regeneration costs. In the following tables, the costs of each query are divided into three parts, i.e., IO, filtering, generation. Notice that the IOs are generally executed in parallel with filtering in modern operating systems.
 
+Table 1: Staged costs of CORES-C with variant selecitivies on TPCH-MQ06 (in seconds).
+
+Threshold| 0.1| 0.01| 0.001| 0.0001 |0.00001
+--- | --- | --- | --- |--- |---
+IO time |14.96 | 35.03| 37.39 |40.88 |41.55 
+filtering |35.26 | 16.56| 14.06| 10.81| 10.09
+generation| 5.88 |1.89| 1.48 |0.81 |0.23
+total|56.11  | 53.48 | 52.93  |52.50 |51.87 
 
 Appendex: Workloads and their parameters
 -----
@@ -161,59 +173,58 @@ Variables| @nameset| @shipdate1| @shipdate2
 
      {"name": "p_comment", "type": "string"},
 
-	    {"name": "pslst", "type":{"type": "array",
+     {"name": "pslst", "type":{"type": "array", 
+     
+      "items":{"type": "record", "name": "ps", 
+      "fields": [
 
-	     "items":{"type": "record", "name": "ps",
+          {"name": "ps_partkey", "type": ["int", "null"], "order": "ignore"},
 
-	     "fields": [
+          {"name": "ps_suppkey", "type": ["int", "null"]},
 
-	         {"name": "ps_partkey", "type": ["int", "null"], "order": "ignore"},
+          {"name": "ps_availqty", "type": ["int", "null"]},
 
-		        {"name": "ps_suppkey", "type": ["int", "null"]},
+          {"name": "ps_supplycost", "type": ["float", "null"]},
 
-	       	 {"name": "ps_availqty", "type": ["int", "null"]},
+          {"name": "ps_comment", "type": ["string", "null"]},
 
-	       	 {"name": "ps_supplycost", "type": ["float", "null"]},
+          {"name": "llst", "type":{"type": "array",
 
-	       	 {"name": "ps_comment", "type": ["string", "null"]},
+           "items": {"type": "record", "name": "l",
 
-		        {"name": "llst", "type":{"type": "array",
+           "fields": [
 
-		        "items": {"type": "record", "name": "l",
+               {"name": "l_orderkey", "type": "int", "order": "ignore"},
 
-	        "fields": [
+               {"name": "l_partkey", "type": "int"},
 
-		            {"name": "l_orderkey", "type": "int", "order": "ignore"},
+               {"name": "l_suppkey", "type": "int"},
 
-			           {"name": "l_partkey", "type": "int"},
+               {"name": "l_linenumber", "type": "int"},
 
-		          	 {"name": "l_suppkey", "type": "int"},
+               {"name": "l_quantity", "type": "float"},
 
-		          	 {"name": "l_linenumber", "type": "int"},
+               {"name": "l_extendedprice", "type": "float"},
 
-          			 {"name": "l_quantity", "type": "float"},
+               {"name": "l_discount", "type": "float"},
 
-	          		 {"name": "l_extendedprice", "type": "float"},
+               {"name": "l_tax", "type": "float"},
 
-		          	 {"name": "l_discount", "type": "float"},
+               {"name": "l_returnflag", "type": "bytes"},
 
-		          	 {"name": "l_tax", "type": "float"},
+               {"name": "l_linestatus", "type": "bytes"},
 
-			           {"name": "l_returnflag", "type": "bytes"},
+               {"name": "l_shipdate", "type": "string"},
 
-		          	 {"name": "l_linestatus", "type": "bytes"},
+               {"name": "l_commitdate", "type": "string"},
 
-			           {"name": "l_shipdate", "type": "string"},
+               {"name": "l_receiptdate", "type": "string"},
 
-		          	 {"name": "l_commitdate", "type": "string"},
+               {"name": "l_shipinstruct", "type": "string"},
 
-			           {"name": "l_receiptdate", "type": "string"},
+               {"name": "l_shipmode", "type": "string"},
 
-		          	 {"name": "l_shipinstruct", "type": "string"},
-
-		          	 {"name": "l_shipmode", "type": "string"},
-
-		          	 {"name": "l_comment", "type": "string"}
+               {"name": "l_comment", "type": "string"}
 
           ]}}}
 
