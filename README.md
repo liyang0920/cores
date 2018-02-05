@@ -269,45 +269,85 @@ Variables| @nameset| @shipdate1| @shipdate2
 ### B. Modified PTCH QUERIES ON NESTED SCHEMAS.
 #### B.1 P-PS-L: nested schema for Part, Partsupp, Lineitem with seudo mapping scheme.
 {"type": "record", "name": "PPSL", 
+
  "fields": [ 
+ 
      {"name": "p_partkey", "type": "int", "order": "ignore"}, 
+     
      {"name": "p_name", "type": "string"}, 
+     
      {"name": "p_mfgr", "type": "string"}, 
+     
      {"name": "p_brand", "type": "string"}, 
+     
      {"name": "p_type", "type": "string"}, 
+     
      {"name": "p_size", "type": "int"}, 
+     
      {"name": "p_container", "type": "string"}, 
+     
      {"name": "p_retailprice", "type": "float"}, 
+     
      {"name": "p_comment", "type": "string"}, 
+     
      {"name": "pslst", "type":{"type": "array", 
+     
       "items":{"type": "record", "name": "ps", 
+      
       "fields": [ 
+      
           {"name": "ps_partkey", "type": ["int", "null"], "order": "ignore"}, 
+          
           {"name": "ps_suppkey", "type": ["int", "null"]}, 
+          
           {"name": "ps_availqty", "type": ["int", "null"]}, 
+          
           {"name": "ps_supplycost", "type": ["float", "null"]}, 
+          
           {"name": "ps_comment", "type": ["string", "null"]}, 
+          
           {"name": "llst", "type":{"type": "array", 
+          
            "items": {"type": "record", "name": "l", 
+           
            "fields": [ 
+           
                {"name": "l_orderkey", "type": "int", "order": "ignore"}, 
+               
                {"name": "l_partkey", "type": "int"}, 
+               
                {"name": "l_suppkey", "type": "int"}, 
+               
                {"name": "l_linenumber", "type": "int"}, 
+               
                {"name": "l_quantity", "type": "float"}, 
+               
                {"name": "l_extendedprice", "type": "float"}, 
+               
                {"name": "l_discount", "type": "float"}, 
+               
                {"name": "l_tax", "type": "float"}, 
+               
                {"name": "l_returnflag", "type": "bytes"}, 
+               
                {"name": "l_linestatus", "type": "bytes"}, 
+               
                {"name": "l_shipdate", "type": "string"}, 
+               
                {"name": "l_commitdate", "type": "string"}, 
+               
                {"name": "l_receiptdate", "type": "string"}, 
+               
                {"name": "l_shipinstruct", "type": "string"}, 
+               
                {"name": "l_shipmode", "type": "string"}, 
+               
                {"name": "l_comment", "type": "string"} 
+               
           ]}}} 
+          
      ]}}} 
+     
 ]}
 
 #### B.2 MQ06 on PPSL schema.
