@@ -24,6 +24,12 @@ Contains the test framework. Several tests are making sure the examples runs. Th
 State-of-the-art Comparison
 -----
 ### Codebase of the comparisons.
+We choose two workloads for evaluating. In the first one, three tables of TPCH, i.e., Lineitem, Partsupp and Part, are used
+to build a three-level nested schema as given in Figure 9. We modify four queries Q-6, Q-14, Q-19 and Q-20 to evaluate their filtering and fetching components with different selectivities. These modified queries are denoted by (TPCH-)MQ6, MQ14, MQ19
+and MQ20. The second one includes 12 million Pubmed records, which can be obtained from Medline Website. As shown in Table 1, it has a complex schema with more than one hundred nodes.
+
+All our experiments are evaluated on a single-node server and a cluster. The single-node server, namely, Dell PowerEdge R730, has two Intel Xeon ES-2640 CPUs with 8 cores each, and 320GB SCSI disk with about 180MB/s I/O throughput. We investigate the I/O behaviors of CORES, and compare it with three competitors, including AsterixDB-0.9.2, Avro/Trevni-1.9 and Parquet-1.6. Our cluster is connected by a 40Gb/s InfiniBand network, each node consists of two AMD Operon(tm) 6174 CPUs with 12 cores each, run at 800MHz and 128GB memory. We introduce Hadoop-2.7 as our running environment to compare CORES to Hive-3.0.0 (run on both MapReduce and Tez-0.9), Spark-2.0 and AsterixDB-0.9.2 in the MapReduce environment. We use 32KB block size in CORES-M(C) and conduct the default settings for their competitors, where Avro/Trevni are evaluated with 64KB blocks and the size of row group in Parquet is 128MB.
+
 To measure the efficiency of CORES, three data formats, i.e., Avro, Trevni and Parquet, are conducted in our experiments. In addition, we also measure CORES compared to several big-data platform (Spark, Hive/Tez) in the MapReduce environments. The experimental codes are as follows.
 
 [project](https://github.com/liyang0920/cores "https://github.com/liyang0920/cores")
@@ -130,6 +136,39 @@ filtering | 1.85 |2.21 |1.84 |2.02 |1.95 |2.79 |4.11 |4.14 |4.34 |4.14
 generation|3.71 |0.03 |0.16 |0.12 |0.12 |3.60 |0.21 |0.13 |0.12 |0.10 
 total | 20.69 |5.42 |4.05 |3.51 |2.97 |20.06 |6.98 |5.21 |5.20 |4.78 
 
+### Ingestion costs of CORES compared to Trevni and Avro.
+In this experiment, using a total selectivity of 100% in all queries, we measure the overhead of CORES with/without filtering. In the following table, we list the runtime of CORES (with/without) filtering, and compare them with Avro/Trevni with the same payloads of the modified TPCH queries. In this table, the columns associated with -Cold and -Hot are measured  on disk and in memory, respectively.
+
+Table 9: Runtime of CORES with/without filtering compared to Avro/Trevni (in seconds).
+
+Threshold| MQ06| MQ14| MQ19| MQ20 | MQ06| MQ14| MQ19| MQ20 
+--- | --- | --- | --- |--- |---| --- | --- | --- 
+Storage| -Cold | -Cold | -Cold|-Cold  | -Hot |-Hot   |-Hot  |-Hot   
+CORES-Filter | 93.57 |189.54 |138.84 |51.10 |87.59 |184.83 |122.11 |45.98 
+CORES-No-Filte | 119.01 |117.28 |270.37 |74.74 |91.86 |84.51 |255.86 |64.33
+Trevni|169.70 |86.03 |243.53 |59.88 |170.39 |72.84 |229.84 |58.61 
+Avro | 282.01 |257.60 |306.90 |257.08 |262.04 |153.01 |285.99 |174.62 
+
+### Total costs of CORES compared to Parquet Trevni and Avro.
+This experiments give the comparison results based on Pubmed regarding all costs of the queries with variant selectivities. It should be noticed that the superiority of CORES on TPCH is similar with what we obtained from Pubmed. We omit the results and their MapReduce-based results. People who desire more details can contact the authors.
+
+Table 10: Total costs of CORES compared to Parquet, Trevni and Avro (in seconds) based on Pubmed.
+
+Threshold| 0.1| 0.01| 0.001| 0.0001 |0.00001| 0.1| 0.01| 0.001| 0.0001 |0.00001
+--- | --- | --- | --- |--- |---| --- | --- | --- |--- |---
+Queries| Q1 | Q1 | Q1 | Q1  |Q1| Q2  |Q2   |Q2  |Q2 |Q2
+Trevni | 12.39 |11.78 |11.48 |11.66 |11.36 |7.37 |7.55 |7.04 |7.11 |7.17  
+Avro | 124.06 |125.15 |124.94 |124.78 |124.47 |123.88 |124.08 |124.04 |124.42 |124.50 
+Parquet|25.18 |27.46 |24.96 |25.22 |25.38 |11.46 |13.27 |11.53 |11.36 |11.44 
+CORES-C | 7.05 |5.33 |3.31 |2.49 |2.26 |3.13 |2.95 |2.82 |2.25 |2.37 
+CORES-M | 7.26 |5.93 |3.85 |3.19 |3.05 |2.93 |3.16 |2.69 |2.29 |2.41 
+Queries| Q3 | Q3 | Q3 | Q3  |Q3| Q4  |Q4   |Q4  |Q4 |Q4
+Trevni | 19.96 |20.21 |19.48 |20.32 |20.54 |59.83 |59.87 |61.25 |59.51 |59.48 
+Avro | 126.68 |125.91 |125.25 |126.05 |125.40 |124.22 |124.05 |124.07 |124.56 |124.27 
+Parquet|41.94 |41.01 |41.19 |41.17 |40.71 |120.81 |118.44 |118.30 |119.10 |120.52 
+CORES-C |9.14 |5.56 |4.40 |4.91 |3.93 |20.69 |5.42 |4.05 |3.51 |2.97 
+CORES-M | 11.94 |9.63 |8.90 |10.26 |9.71 |20.06 |6.98 |5.21 |5.20 |4.78 
+
 Appendex: Workloads and their parameters
 -----
 ### A. DETAILS OF MODIFIED TPCH QUERIES.
@@ -144,7 +183,7 @@ AND l.l_discount BETWEEN @discount1 AND @discount2
 
 AND l.l_quantity <= @quantity;
 
-Table 1: Different selectivity by varying selection conditions in query MQ6.
+Table 11: Different selectivity by varying selection conditions in query MQ6.
 
 Variables| @date1| @date2| @discount1| @discount2 |@quantity
 --- | --- | --- | --- |--- |---
@@ -164,7 +203,7 @@ AND l.l_shipdate >= @date1
 
 AND l.l_shipdate <= @date2;
 
-Table 2: Different selectivity by varying selection conditions in query MQ14.
+Table 12: Different selectivity by varying selection conditions in query MQ14.
 
 Variables| @date1| @date2
 --- | --- | --- 
@@ -192,7 +231,7 @@ AND l.l_quantity BETWEEB @qty1 AND @qty2
 
 AND l.l_shipmode IN @modeset;
 
-Table 3: Different selectivity by varying selection conditions in query MQ19.
+Table 13: Different selectivity by varying selection conditions in query MQ19.
 
 Variables| @brand| @cntset| @size| @qty1 |@qty2|@modeset
 --- | --- | --- | --- |--- |--- |---
@@ -218,7 +257,7 @@ AND l.l_shipdate >= @shipdate1
 
 AND l.l_shipdate <= @shipdate2;
 
-Table 4: Different selectivity by varying selection conditions in query MQ20.
+Table 14: Different selectivity by varying selection conditions in query MQ20.
 
 Variables| @nameset| @shipdate1| @shipdate2
 --- | --- | --- | --- 
