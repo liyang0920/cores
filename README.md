@@ -144,8 +144,8 @@ Table 9: Runtime of CORES with/without filtering compared to Avro/Trevni (in sec
 Threshold| MQ06| MQ14| MQ19| MQ20 | MQ06| MQ14| MQ19| MQ20 
 --- | --- | --- | --- |--- |---| --- | --- | --- 
 Storage| -Cold | -Cold | -Cold|-Cold  | -Hot |-Hot   |-Hot  |-Hot   
-CORES-Filter | 93.57 |189.54 |138.84 |51.10 |87.59 |184.83 |122.11 |45.98 
-CORES-No-Filte | 119.01 |117.28 |270.37 |74.74 |91.86 |84.51 |255.86 |64.33
+CORES-Filter | 94.81 |94.53 |129.13 |51.49 |88.33 |85.59 |120.10 |46.44 
+CORES-No-Filter | 119.01 |117.28 |270.37 |74.74 |91.86 |84.51 |255.86 |64.33
 Trevni|169.70 |86.03 |243.53 |59.88 |170.39 |72.84 |229.84 |58.61 
 Avro | 282.01 |257.60 |306.90 |257.08 |262.04 |153.01 |285.99 |174.62 
 
